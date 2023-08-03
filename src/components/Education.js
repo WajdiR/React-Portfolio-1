@@ -21,7 +21,7 @@ function Education({EducationObj}) {
 						date={Obj.duration}
 						iconStyle={{background: 'rgb(33, 150, 243)', color: '#fff'}}
 						icon={<RiBuildingLine />}>
-						<h2 className='vertical-timeline-element-title'>{Obj.title}</h2>
+						<h3 className='vertical-timeline-element-title'>{Obj.title}</h3>
 						<h5 className='vertical-timeline-element-subtitle'>
 							{Obj.location_city}
 						</h5>
